@@ -33,3 +33,8 @@ print(df.head())
 
 print(df['region'].unique())
 print(df['region'].value_counts())
+
+# Exercise 7
+
+subset = df[['region', 'product', 'revenue']]
+print(subset.shape)
