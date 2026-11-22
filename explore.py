@@ -30,3 +30,6 @@ df['per_unit'] = df['revenue'] / df['quantity']
 print(df.head())
 
 # Exercise 6
+
+print(df['region'].unique())
+print(df['region'].value_counts())
