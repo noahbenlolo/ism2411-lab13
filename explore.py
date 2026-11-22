@@ -12,7 +12,7 @@ print(df.dtypes)
 
 south = df[df['region'] == 'South']
 
-print(len(South))
+print(len(south))
 print(south.head())
 
 # Exercise 3
@@ -22,7 +22,7 @@ print(top_5)
 
 # Exercise 4
 
-bi_south = df[(df['region'] == 'South') & (df['revenue'] > 1000)]
+big_south =df[(df['region'] == 'South') & (df['revenue'] > 1000)]
 
 # Exercise 5
 
