@@ -38,3 +38,7 @@ print(df['region'].value_counts())
 
 subset = df[['region', 'product', 'revenue']]
 print(subset.shape)
+
+# Exercise 8
+
+df.to_csv('data/explored.csv', index=False)
