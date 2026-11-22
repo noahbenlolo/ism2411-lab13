@@ -1,3 +1,10 @@
+#Self Assessment
+#1. What the boolean filter does is it gives true or false values for each row inside of the dataframe.
+#2. The single bracket gives gives a series while the double bracket gives a dataframe. What this means
+# is that the single bracket will return a single column while the double bracket will return multiple columns.
+#3. The code becomes repeatable using pandas, so you are able to implement it into real work by reusing it and rerunning it a day, or month later.
+#It also handles large datasets and can be used to analyze data more efficeintly than excel.
+
 # Exercise 1
 import pandas as pd
 
